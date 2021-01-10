@@ -1,0 +1,12 @@
+﻿  Source.cpp
+c:\users\админ\source\repos\project20\project20\person.h(3): error C2059: синтаксическая ошибка: using namespace
+c:\users\админ\source\repos\project20\project20\person.h(6): error C2011: Person: переопределение типа "class"
+  c:\users\админ\source\repos\project20\project20\person.h(6): note:  см. объявление "Person"
+c:\users\админ\source\repos\project20\project20\student.h(10): error C2504: Person: не определен базовый класс
+c:\users\админ\source\repos\project20\project20\student.h(30): error C3668: Student::print: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+c:\users\админ\source\repos\project20\project20\student.h(20): error C2614: Student: недопустимая инициализация члена: "Person" не является базовым классом или членом
+c:\users\админ\source\repos\project20\project20\teacher.h(9): error C2504: Person: не определен базовый класс
+c:\users\админ\source\repos\project20\project20\teacher.h(29): error C3668: Teacher::print: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+c:\users\админ\source\repos\project20\project20\teacher.h(19): error C2614: Teacher: недопустимая инициализация члена: "Person" не является базовым классом или членом
+c:\users\админ\source\repos\project20\project20\teacher.h(45): error C2027: использование неопределенного типа "Person"
+  c:\users\админ\source\repos\project20\project20\person.h(5): note:  см. объявление "Person"
